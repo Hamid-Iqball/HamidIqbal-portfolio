@@ -12,7 +12,7 @@ import { SiNextdotjs, SiTailwindcss } from "react-icons/si"
 
 function About() {
   return (
-    <div className="h-screen justify-between  mx-auto text-white  " id="about">
+    <div className="min-h-screen justify-between  mx-auto text-white mb-12 " id="about">
       {/* Heading */}
       <div className="flex flex-col items-center justify-between gap-2 mb-16">
 
