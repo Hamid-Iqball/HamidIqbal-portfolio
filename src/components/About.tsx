@@ -27,7 +27,7 @@ function About() {
     <div className="w-full max-w-2/3  border-b-[1px] border-b-neutral-500">
       <h1 className="text-4xl font-semibold mb-1">Hamid Iqbal</h1>
 
-      <p className="flex items-center gap-1 text-neutral-400 mb-6">Founding Front-End Developer at <Link href="https://veevotech.com/" className="underline decoration-1 decoration-neutral-300 flex gap-1 underline-offset-3 hover:decoration-blue-200  text-white "> VeevoTech  <Image src="/vt_logo.png" alt="logo" height={34} width={34} /> </Link> </p>
+      <p className="flex items-center gap-1 text-neutral-400 mb-6 leading-3">Founding Front-End Developer at <Link href="https://veevotech.com/" className="underline decoration-1 decoration-neutral-300 flex gap-1 underline-offset-3 hover:decoration-blue-200  text-white "> VeevoTech  <Image src="/vt_logo.png" alt="logo" height={34} width={34} /> </Link> </p>
 
       <p className=" text-neutral-400 mb-2">Hello! You can call me <strong className="text-white">Hamid.</strong> I am a Front End developer who works with the React Ecosystem. From a young age, I've been captivated by Software developement. As a <strong className="text-white"> Front End Developer
         </strong> , I am committed to crafting exceptional web experiences. 
@@ -39,13 +39,13 @@ function About() {
 
         As a front-end developer, I specialize in building modern, high-performance web applications using <span className=" items-center gap-1 text-white border border-neutral-500 rounded-4xl inline-flex px-1 text-center text-sm"> <SiNextdotjs/> Next.js</span> and <span className=" items-center gap-1 text-white border border-neutral-500 rounded-4xl inline-flex px-1  text-sm text-center">
           <FaReact /> React.js
-          </span> . With a strong foundation in <span className=" items-center gap-1 text-white border border-neutral-500 rounded-4xl text-sm inline-flex px-1 text-center">
-          <IoLogoJavascript /> JavaScript </span> and <span className=" items-center gap-1 text-white border border-neutral-500 rounded-4xl inline-flex px-1 text-center text-sm">
+          </span> . With a strong foundation in <span className=" items-center gap-1 text-white border border-neutral-600 rounded-4xl text-sm inline-flex px-1 text-center">
+          <IoLogoJavascript /> JavaScript </span> and <span className=" items-center gap-1 text-white border border-neutral-600 rounded-4xl inline-flex px-1 text-center text-sm">
           <BiLogoTypescript  /> TypeScript </span>, I focus on creating seamless, user-friendly interfaces that enhance the overall user experience. 
     
         </p>
 
-        <p className="text-neutral-400 mb-10">
+        <p className="text-neutral-400 mb-10 ">
         I leverage <span className=" items-center gap-1 text-white border border-neutral-500 rounded-4xl inline-flex px-1 text-center text-sm">
         <SiTailwindcss /> Tailwind Css </span> along with other tools for efficient styling and utilize  <span className=" items-center gap-1 text-white border border-neutral-500 rounded-4xl inline-flex px-1 text-center text-sm">
         <RiSupabaseFill color="#00FFB7" /> Supabase </span> and  <span className=" items-center gap-1 text-white border border-neutral-500 rounded-4xl inline-flex px-1 text-center text-sm">
