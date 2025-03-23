@@ -14,9 +14,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className="min-h-screen flex flex-col">
+      <body >
         <Navbar/>
-        <main className="flex-grow">
+        <main >
         {children}
         </main>
 
