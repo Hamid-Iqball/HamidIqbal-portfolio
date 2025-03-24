@@ -1,9 +1,10 @@
 import { IconType } from "react-icons";
 import { DiJsBadge } from "react-icons/di";
 import { FaBootstrap, FaReact } from "react-icons/fa";
-import { MdJavascript } from "react-icons/md";
-import { SiCss3, SiHtml5, SiReactquery, SiTailwindcss, SiTypescript } from "react-icons/si";
-import { TbBrandNextjs } from "react-icons/tb";
+import { RiFirebaseFill } from "react-icons/ri";
+
+import { SiCss3, SiGreensock, SiHtml5, SiReactquery, SiSupabase, SiTailwindcss, SiTypescript, SiZod } from "react-icons/si";
+import { TbBrandFramerMotion, TbBrandNextjs, TbBrandRedux } from "react-icons/tb";
 
 
 type Navbar = {
@@ -26,7 +27,7 @@ export const navLinks:Navbar[] = [
     {
       id: 3,
       name: 'Tech Stack',
-      href: '#work',
+      href: '#skills',
     },
     {
       id: 4,
@@ -55,7 +56,7 @@ export const navLinks:Navbar[] = [
       id:2,
       name:"Next",
       icon:TbBrandNextjs,
-      color:"#3A3A3A",
+      color:"#ffff",
       size:40
     },
     {
@@ -108,10 +109,45 @@ export const navLinks:Navbar[] = [
       size:40
     },
     {
-      id:9,
-      name:"CSS3",
-      icon:SiCss3,
-      color:"#087CD1",
+      id:11,
+      name:"GSAP",
+      icon:SiGreensock,
+      color:"#97D50E",
+      size:40
+    },
+    {
+      id:12,
+      name:"framer",
+      icon:TbBrandFramerMotion,
+      color:"#EB09C9",
+      size:40
+    },
+    {
+      id:13,
+      name:"Supabase",
+      icon:SiSupabase,
+      color:"#44D192",
+      size:40
+    },
+    {
+      id:14,
+      name:"Firebase",
+      icon:RiFirebaseFill,
+      color:"#FFCE36",
+      size:40
+    },
+    {
+      id:15,
+      name:"Zod",
+      icon:SiZod,
+      color:"#2E5386",
+      size:40
+    },
+    {
+      id:16,
+      name:"Redux",
+      icon:TbBrandRedux,
+      color:"#7A50BE",
       size:40
     },
   
