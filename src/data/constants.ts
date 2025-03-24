@@ -32,7 +32,7 @@ export const navLinks:Navbar[] = [
     {
       id: 4,
       name: 'Projects',
-      href: '#contact',
+      href: '#projects',
     },
   ];
 

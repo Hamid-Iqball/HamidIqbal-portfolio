@@ -23,11 +23,11 @@ function Hero() {
       {/* Heading 2 */}
       <div className="ml-4 mb-5 ">
 
-    <h1 className=" text-3xl sm:text-5xl font-bold text-neutral-50 flex mb-4 ">
-      
+      <h1 className="text-6xl md:text-5xl font-bold text-green-50  flex mb-4">
+  Front End Developer
+</h1>
 
-        Front End Developer</h1>
-     <p className="sm:text-base text-neutral-200 text-sm w-11/12">I work with the React ecosystem, building innovative web solutions that seamlessly blend creativity with functionality, delivering intuitive and engaging digital experiences.</p>  
+     <p className="sm:text-base text-neutral-200 text-sm text-justify">I work with the React ecosystem, building innovative web solutions that seamlessly blend creativity with functionality, delivering intuitive and engaging digital experiences.</p>  
       </div>
 
       {/* Buttons */}

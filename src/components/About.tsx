@@ -12,7 +12,7 @@ import { SiNextdotjs, SiTailwindcss } from "react-icons/si"
 
 function About() {
   return (
-    <div className="min-h-screen justify-between  mx-auto text-white mb-12 " id="about">
+    <div className="min-h-screen  justify-between  mx-auto text-white mb-12 " id="about">
       {/* Heading */}
       <div className="flex flex-col items-center justify-between gap-2 mb-16">
 
@@ -21,13 +21,13 @@ function About() {
       </div>
 
       {/* section 2 */}
-      <div className=" flex justify-between items-center mt-28">
+      <div className=" flex justify-between flex-col md:flex-row items-center mt-28">
 
     <div>Image</div>
-    <div className="w-full max-w-2/3  border-b-[1px] border-b-neutral-500">
+    <div className=" md:max-w-2/3 text-justify  border-b-[1px] border-b-neutral-500">
       <h1 className="text-4xl font-semibold mb-1">Hamid Iqbal</h1>
 
-      <p className="flex items-center gap-1 text-neutral-400 mb-6 leading-3">Founding Front-End Developer at <Link href="https://veevotech.com/" className="underline decoration-1 decoration-neutral-300 flex  items-center gap-1 underline-offset-3 hover:decoration-blue-200  text-white "> VeevoTech  <Image src="/vt_logo.png" alt="logo" height={34} width={34} /> </Link> </p>
+      <p className="flex items-center gap-1 text-neutral-400 mb-6 leading-3 text-sm md:text-base">Founding Front-End Developer at <Link href="https://veevotech.com/" className="underline decoration-1 decoration-neutral-300 flex  items-center gap-1 underline-offset-3 hover:decoration-blue-200  text-white "> VeevoTech  <Image src="/vt_logo.png" alt="logo" height={34} width={34} /> </Link> </p>
 
       <p className=" text-neutral-400 mb-2">Hello! You can call me <strong className="text-white">Hamid.</strong> I am a Front End developer who works with the React Ecosystem. From a young age, I &apos;ve been captivated by Software developement. As a <strong className="text-white"> Front End Developer
         </strong> , I am committed to crafting exceptional web experiences. 
