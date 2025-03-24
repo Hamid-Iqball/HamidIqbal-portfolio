@@ -15,7 +15,7 @@ function Home() {
 
     <About/>
       </section>
-      <section className="w-3/4 max-w-full mx-auto text-white">
+      <section className=" mx-1 sm:w-3/4 max-w-full sm:mx-auto text-white">
         <Skills/>
       </section>
 

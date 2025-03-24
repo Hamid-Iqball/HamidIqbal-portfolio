@@ -9,7 +9,7 @@ function Skills() {
     <div  id="skills">
 
 
-         <div className="flex flex-col items-center justify-between gap-2 mb-16">
+         <div className="flex flex-col items-center justify-between gap-2 mb-20">
         {/* Heading */}
             <p className="text-center bg-[#181C1A] p-3 rounded-2xl"> <FaLaptopCode size={24}/></p>
                 <h1 className="text-center text-5xl font-bold">Skills & <span className="text-HGreen">Experience</span> </h1>
@@ -18,17 +18,27 @@ function Skills() {
                 </p>
         {/* Icons */}
 
-        <div className="flex flex-wrap gap-12 justify-center items-center max-w-3/4 ">
+        <div className="flex flex-wrap gap-8 justify-center items-center w-full md:max-w-3/4 ">
         {icons.map((item) => {
             const IconComponent = item.icon;
             return (
-            <div key={item.id} className="flex flex-col items-center ">
-                <span className="bg-[#1A1C1D] p-4 rounded-2xl cursor-pointer  shadow-[0px_0px_15px_5px_rgba(255,255,255,0.5)] hover:shadow-[0px_0px_20px_8px_rgba(255,255,0,0.5)]">
-
-                <IconComponent size={item.size} color={item.color} />
-                {/* <p className="text-sm text-white mt-1">{item.name}</p> */}
+                <div key={item.id} className="flex flex-col items-center">
+                <span
+                  className="bg-[#181919] p-4 sm:p-5 rounded-2xl cursor-pointer transition-shadow duration-1000 ease-out"
+                  style={{
+                    boxShadow: "0px 0px 10px 3px transparent", // Default shadow
+                  }}
+                  onMouseEnter={(e) =>
+                    (e.currentTarget.style.boxShadow = `0px 0px 20px 8px ${item.shadow}`)
+                  }
+                  onMouseLeave={(e) =>
+                    (e.currentTarget.style.boxShadow = "0px 0px 10px 3px transparent")
+                  }
+                >
+                  <IconComponent size={item.size} color={item.color} />
                 </span>
-            </div>
+              </div>
+              
             );
         })}
         </div>
