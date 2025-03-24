@@ -12,14 +12,14 @@ function Home() {
 
     <Hero/>
       </section>
-      <section className="md:w-3/4 w-11/12 mx-auto min-h-screen  ">
+      <section className="md:w-3/4 w-11/12 mx-auto min-h-screen mb-12 ">
 
     <About/>
       </section>
-      <section className=" mx-1 sm:w-3/4 max-w-full sm:mx-auto text-white">
+      <section className=" mx-1 sm:w-3/4 max-w-full sm:mx-auto text-white mb-12">
         <Skills/>
       </section>
-      <section className="text-white w-3/4 max-w-full mx-auto min-h-screen">
+      <section className="text-white w-3/4 max-w-full mx-auto min-h-screen mb-12">
         <Projects/>
       </section>
 
