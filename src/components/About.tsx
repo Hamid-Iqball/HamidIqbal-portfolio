@@ -14,14 +14,17 @@ function About() {
   return (
     <div className="min-h-screen  justify-between  mx-auto text-white mb-12 " id="about">
       {/* Heading */}
-      <div className="flex flex-col items-center justify-between gap-2 mb-16">
+      <div className="flex flex-col items-center justify-between gap-2 mb-8">
 
       <p className="text-center bg-[#181C1A] p-3 rounded-2xl"><IoPersonCircleOutline size={24}/></p>
           <h1 className="text-center text-5xl font-bold">About <span className="text-HGreen">Me</span> </h1>
+          <p className="  bg-gradient-to-r from-neutral-500 via-neutral-300 to-neutral-500 text-transparent bg-clip-text mb-12 text-center max-w-11/12">
+                    A brief introduction of myself
+                </p>
       </div>
 
       {/* section 2 */}
-      <div className=" flex justify-between flex-col md:flex-row items-center mt-28">
+      <div className=" flex justify-between flex-col md:flex-row items-center mt-10">
 
     <div>Image</div>
     <div className=" md:max-w-2/3 text-justify  border-b-[1px] border-b-neutral-500">
