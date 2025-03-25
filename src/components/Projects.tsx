@@ -7,7 +7,8 @@ import Carousel from "./Carousel"
 import SpotlightCard from "./SpotLightCard"
 import Link from "next/link"
 import { FiGithub } from "react-icons/fi"
-import { LuLink } from "react-icons/lu"
+import Image from "next/image"
+// import { LuLink } from "react-icons/lu"
 
 function Projects() {
   return (
@@ -29,14 +30,14 @@ function Projects() {
         {/* First Project container */}
       
 
-        <div className="grid grid-cols-12 gap-4 rounded-2xl overflow-hidden h-full border border-neutral-800">
-  <div className="col-span-12 md:col-span-8 p-6 text-neutral-100 h-full">
+        <div className="grid grid-cols-12 gap-2 rounded-2xl overflow-hidden h-full border border-neutral-900">
+  <div className="col-span-12 lg:col-span-8 p-2 text-neutral-100 h-full">
     <SpotlightCard className="h-full custom-spotlight-card" spotlightColor="rgba(0, 229, 255, 0.2)">
     <h1 className="text-3xl font-semibold mb-6">The Wild Oasis</h1>
             <p className="text-sm font-light text-neutral-400 mb-4">
             The Wild Oasis is a full-stack hotel management web application designed to streamline operations for hotel employees. With this system, staff can efficiently manage cabins, handle bookings, and oversee guest information. The platform offers an intuitive interface that simplifies daily administrative tasks, ensuring a seamless experience for both employees and guests.
             </p>
-            <div className="flex items-center gap-2 justify-between">
+            <div className="flex items-start gap-2 flex-col lg:flex-row justify-center lg:justify-between">
               <div className="flex gap-2 items-center">
               <h1 className="text-neutral-400 text-lg">Tools:</h1>
                 <FaReact size={20}/>
@@ -44,17 +45,28 @@ function Projects() {
                 <SiReactquery size={20}/>
                 <RiTailwindCssFill size={20}/>
               </div>
-              <div className="flex items-center justify-between gap-2">
-                <Link href="/" className="flex items-center justify-between gap-[2px] text-xs"> <FiGithub size={18}/> Repository</Link>
-                <Link href='/' className="flex items-center justify-between gap-[2px] text-xs" ><LuLink size={16} color="green"/>Open Live site</Link>
+              <div className="flex  items-center  gap-2 ">
+                <Link href="/" className="flex items-center justify-between gap-[2px] text-xs hover:underline decoration-1 underline-offset-4 decoration-neutral-400 cursor-alias"> <FiGithub size={14}/> Repository</Link>
+                <Link href='/' className="flex items-center justify-between gap-[2px] text-xs   hover:underline decoration-1 underline-offset-4 cursor-alias " > <FaLink size={14} color="blue"/>Open Live site</Link>
               </div>
             </div>
     </SpotlightCard>
   </div>
-  <div className="col-span-12 md:col-span-4 p-4 h-full">
-    
-  </div>
+  <div className="relative w-full col-span-12 lg:col-span-4 h-full min-h-[300px]">
+  <Image 
+    src="/projects/TheWildOasisWA/dashboard.png" 
+    alt="The Wild Oasis Dashboard" 
+    fill 
+    className="rounded-lg object-cover"
+  />
 </div>
+
+
+
+        </div>
+
+
+
         {/* Second Project container */}
         <div className="grid grid-cols-12 gap-4">
           <div className="col-span-12 md:col-span-4 p-4">
