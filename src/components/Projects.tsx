@@ -31,13 +31,13 @@ function Projects() {
       
 
         <div className="grid grid-cols-12 gap-2 rounded-2xl overflow-hidden h-full border border-neutral-900">
-  <div className="col-span-12 lg:col-span-8 p-2 text-neutral-100 h-full">
-    <SpotlightCard className="h-full custom-spotlight-card" spotlightColor="rgba(0, 229, 255, 0.2)">
+  <div className="col-span-12 lg:col-span-8 p-2 text-neutral-100 h-full ">
+    <SpotlightCard className="h-full flex flex-col custom-spotlight-card" spotlightColor="rgba(0, 229, 255, 0.2)">
     <h1 className="text-3xl font-semibold mb-6">The Wild Oasis</h1>
             <p className="text-sm font-light text-neutral-400 mb-4">
             The Wild Oasis is a full-stack hotel management web application designed to streamline operations for hotel employees. With this system, staff can efficiently manage cabins, handle bookings, and oversee guest information. The platform offers an intuitive interface that simplifies daily administrative tasks, ensuring a seamless experience for both employees and guests.
             </p>
-            <div className="flex items-start gap-2 flex-col lg:flex-row justify-center lg:justify-between">
+            <div className="flex items-start gap-2 flex-col lg:flex-row justify-center lg:justify-between ">
               <div className="flex gap-2 items-center">
               <h1 className="text-neutral-400 text-lg">Tools:</h1>
                 <FaReact size={20}/>
@@ -45,23 +45,21 @@ function Projects() {
                 <SiReactquery size={20}/>
                 <RiTailwindCssFill size={20}/>
               </div>
-              <div className="flex  items-center  gap-2 ">
-                <Link href="/" className="flex items-center justify-between gap-[2px] text-xs hover:underline decoration-1 underline-offset-4 decoration-neutral-400 cursor-alias"> <FiGithub size={14}/> Repository</Link>
+              <div className="flex  items-center  gap-2   ">
+                <Link href="https://github.com/Hamid-Iqball/The-wild-oasis-WebApp" className="flex items-center justify-between gap-[2px] text-xs hover:underline decoration-1 underline-offset-4 decoration-neutral-400 cursor-alias"> <FiGithub size={14}/> Repository</Link>
                 <Link href='/' className="flex items-center justify-between gap-[2px] text-xs   hover:underline decoration-1 underline-offset-4 cursor-alias " > <FaLink size={14} color="blue"/>Open Live site</Link>
               </div>
             </div>
     </SpotlightCard>
   </div>
-  <div className="relative w-full col-span-12 lg:col-span-4 h-full min-h-[300px]">
-  <Image 
-    src="/projects/TheWildOasisWA/dashboard.png" 
-    alt="The Wild Oasis Dashboard" 
-    fill 
-    className="rounded-lg object-cover"
-  />
-</div>
-
-
+        <div className="relative w-full col-span-12 p-4 lg:col-span-4 min-h-[300px]  opacity-80 hover:opacity-100 transition-opacity ease-in-out duration-700 cursor-pointer bg-neutral-600">
+        <Image 
+          src="/projects/TheWildOasisWA/nextimg.png" 
+          alt="The Wild Oasis Dashboard" 
+          fill 
+          className="rounded-lg object-cover"
+        />
+      </div>
 
         </div>
 

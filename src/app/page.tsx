@@ -19,7 +19,7 @@ function Home() {
       <section className=" mx-1 sm:w-3/4 max-w-full sm:mx-auto text-white mb-12">
         <Skills/>
       </section>
-      <section className="text-white w-full sm:w-11/12 md:w-3/4 max-w-full mx-auto min-h-screen mb-12">
+      <section className="text-white w-full lg:w-3/4  max-w-full mx-auto min-h-screen mb-12">
         <Projects/>
       </section>
 
