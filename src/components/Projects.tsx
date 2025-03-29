@@ -2,7 +2,7 @@
 "use client"
 import { FaFolderOpen, FaRegChartBar } from "react-icons/fa"
 import { FaReact } from "react-icons/fa6"
-import { SiAxios, SiNextdotjs, SiReactquery, SiSupabase, SiZod } from "react-icons/si"
+import { SiAxios, SiCss3, SiHtml5, SiJavascript, SiNextdotjs, SiReactquery, SiSupabase, SiZod } from "react-icons/si"
 import { RiTailwindCssFill } from "react-icons/ri"
 import SpotlightCard from "./SpotLightCard"
 import Link from "next/link"
@@ -152,6 +152,52 @@ function Projects() {
             />
           </div>
         </div>
+
+
+
+            {/* 4th Project container */}
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-2 rounded-2xl overflow-hidden h-full border border-neutral-900">
+
+
+<div className="relative w-full col-span-1 lg:col-span-4 min-h-[300px] opacity-80 hover:opacity-100 transition-opacity ease-in-out duration-700 cursor-pointer bg-[#010103] order-1">
+    <Image
+      src="/projects/VeevoTech/veevotech.png"
+      alt="The Wild Oasis Dashboard"
+      fill
+      className="rounded-lg object-contain"
+    />
+  </div>
+  {/* Text Content Column - Responsive Positioning */}
+  <div className="col-span-1 lg:col-span-8 p-2 text-neutral-100 h-full order-2 ">
+    <SpotlightCard className="h-full flex flex-col custom-spotlight-card" spotlightColor="rgba(0, 229, 255, 0.2)">
+      <h1 className="text-3xl font-semibold mb-6">VeevoTech</h1>
+      <p className="text-sm font-light text-neutral-400 mb-4 mt-auto">
+        This is a modern, clean , SEO optimized and fully responsive landing page for an IT company called VeevoTech.
+      </p>
+      <div className="flex items-start gap-2 flex-col lg:flex-row justify-center  lg:justify-between">
+        <div className="flex gap-2 items-center">
+          <h1 className="text-neutral-400 text-lg">Tools:</h1>
+          <SiHtml5 size={20}/>
+          <SiCss3 size={20}/>
+          <SiJavascript size={19}/>
+          
+        </div>
+        <div className="flex items-center gap-2">
+          <Link 
+            href="https://github.com/Hamid-Iqball/next-dashboard-ui" 
+            className="flex items-center justify-between gap-[2px] text-xs hover:underline decoration-1 underline-offset-4 decoration-neutral-400 cursor-alias"
+          >
+            <FiGithub size={14}/> Repository
+          </Link>
+        </div>
+      </div>
+    </SpotlightCard>
+  </div>
+
+  {/* Image Column - Responsive Positioning */}
+ 
+</div>
+
 
 
       </div>
