@@ -23,7 +23,7 @@ function Home() {
       <section className="text-white w-full lg:w-3/4  max-w-full mx-auto min-h-screen mb-28">
         <Projects/>
       </section>
-      <section className="text-white w-full lg:w-4/5  max-w-full mx-auto min-h-screen mb-28 mt-44">
+      <section className="text-white w-full  lg:w-4/5  max-w-full mx-auto min-h-screen mb-28 mt-44">
         <ContactForm/>
       </section>
 
