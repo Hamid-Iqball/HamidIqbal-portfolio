@@ -9,8 +9,8 @@ import Skills from "@/components/Skills"
 function Home() {
   return (
     < >
-      <section className="md:w-3/4 w-11/12 mx-auto min-h-screen">
-
+      <section className="lg:w-3/4 w-11/12 mx-auto h-auto mb-44 ">
+      <div className="absolute -top-20 -right-20 w-1/4 h-screen bg-gradient-to-b from-[#3ad896]/10 via-[#54cc9a]/30 to-transparent rounded-full blur-3xl pointer-events-none z-0"></div>
     <Hero/>
       </section>
       <section className="md:w-3/4 w-11/12 mx-auto min-h-screen mb-12 ">

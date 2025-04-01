@@ -8,9 +8,10 @@ import ShinyText from "./ShinnyButton"
 
 
 
+
 function Hero() {
   return (
-    <section  className=" flex flex-col sm:flex-row justify-between items-start mt-20 text-white overflow-x-hidden">
+    <section  className=" flex flex-col lg:flex-row justify-between items-start mt-20 text-white overflow-x-hidden">
       <div className="flex flex-col sm:max-w-1/2 w-full items-start">
   {/* Heading  1*/}
     <div className="flex gap-4 p-2 w-96  sm:max-w-[370px] mb-4">
@@ -24,8 +25,8 @@ function Hero() {
       <div className="ml-4 mb-5 ">
 
       <h1 className="text-6xl md:text-5xl font-bold text-green-50  flex mb-4">
-  Front End Developer
-</h1>
+        Front End Developer
+      </h1>
 
      <p className="sm:text-base text-neutral-200 text-sm text-justify">I work with the React ecosystem, building innovative web solutions that seamlessly blend creativity with functionality, delivering intuitive and engaging digital experiences.</p>  
       </div>
@@ -40,7 +41,7 @@ function Hero() {
       </div>
 
     </div>
-    <div className="">right</div>
+    <div className="flex items-center justify-center h-1/2  overflow-hidden"></div>
     </section>
   )
 }

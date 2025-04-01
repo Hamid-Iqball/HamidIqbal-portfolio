@@ -24,6 +24,7 @@ function Navbar() {
   
   return (
     <header className=" sticky top-0 z-50 bg-black/90 w-full " >
+            <div className="absolute -top-20 -right-20 w-1/4 bg-gradient-to-b from-[#3ad896]/10 via-[#54cc9a]/30 to-transparent rounded-full blur-3xl pointer-events-none z-0"></div>
     <div className="max-w-7xl mx-auto">
       <div className="flex justify-between items-center py-5 mx-auto sm:px-10 px-5">
       <Link href="/" className="text-neutral-200 font-bold text-4xl hover:text-white transition-colors font-big-shoulders "> HAMID </Link>
